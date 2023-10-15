@@ -1,6 +1,6 @@
 # Chat-With-Pdf-Steamlit-Azure
 
--   ChromaDB stores PDF data, retrieved through LangChain based on input, with inference generated using the [LaMini-T5-738M](https://huggingface.co/MBZUAI/LaMini-T5-738M) model 
+-   ChromaDB stores embeddings of PDF data, which is retrieved via LangChain, and response generated using [LaMini-T5-738M](https://huggingface.co/MBZUAI/LaMini-T5-738M) 
 -   Docker image created for this steamlit chatbot and deployed on Azure
 
 ![Screenshot](chatbot_ss.png)
